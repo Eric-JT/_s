@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
-_s
+
+_s-gettin-edumacated-on-wp-themes
 ===
 
 Hi. I was a starter theme called _s, or underscores. I'm a theme meant for hacking. Instead of turning me into the next, most awesome, WordPress theme out there, this doofus is using me for his grotesque experiments by butchering my code.
