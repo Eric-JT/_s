@@ -28,10 +28,12 @@ If you want to keep it simple, head over to https://underscores.me and generate 
 
 
 **In the gulpfile, change the `DEST` variable to the location of your Wordpress themes**
+
 I use the `move-files` task to copy the build files from my development location to my themes location whenever changes are made. Until I figure out how to only move the changed files, everything is copied over everytime :unamused:
 
 
 **You may need to grant you wordpress theme this permission.. or you may not, I had to.**
+
 sudo chown -R _user_:www-data _path/to/destination/WP-themes/_
 
 Use `gulp watch` to start gulp 
