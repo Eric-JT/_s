@@ -34,7 +34,7 @@ I use the `move-files` task to copy the build files from my development location
 
 **You may need to grant you wordpress theme this permission.. or you may not, I had to.**
 
-sudo chown -R _user_:www-data _path/to/destination/WP-themes/_
+`sudo chown -R _user_:www-data _path/to/destination/WP-themes/_`
 
 Use `gulp watch` to start gulp 
 
