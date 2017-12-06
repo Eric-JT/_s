@@ -1,0 +1,31 @@
+{
+  "name": "s-gettin-edumacated-on-wp-themes",
+  "version": "1.0.0",
+  "description": "Fork of _s wordpress starter theme. Using it to learn how to develop wordpress themes.",
+  "main": "''",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eric-JT/_s-gettin-edumacated-on-wp-themes.git"
+  },
+  "keywords": [
+    "wordpress",
+    "themes",
+    "starter-kit"
+  ],
+  "author": "Eric Trotchie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eric-JT/_s-gettin-edumacated-on-wp-themes/issues"
+  },
+  "homepage": "https://github.com/Eric-JT/_s-gettin-edumacated-on-wp-themes#readme"
+}
