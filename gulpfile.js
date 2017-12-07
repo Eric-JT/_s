@@ -2,16 +2,26 @@ const GULP         = require("gulp");
 const SASS         = require("gulp-sass");
 const PREFIX       = require("gulp-autoprefixer");
 
-// destination variable
-const DEST = "/home/eric/Projects-Server/wordpress-test/wp-content/themes/aliquid-infigo/";
- // used to check if changes are made in files
-const THEME_FOLDERS = "_WP-Theme/aliquid-infigo/**";
+
+// CHANGE THESE VARIABLE VALUES
+
+// Change the value to the exact name you changed the _s folder too 
+const THEME_NAME= "Change_This";
+
+// location variable
+//example- const DEST = `/home/eric/Projects-Server/wordpress-test/wp-content/themes/${THEME_NAME}/`;
+const THEME_DESTINATION = `./${THEME_NAME}/`; // location of your wordpress themes on your server
+
+// location of the development files
+const THEME_FOLDERS = `_WP-Themes/${THEME_NAME}/**`;
+
 // location to save sass build
-const CSS_DESTINATION = "_WP-Theme/aliquid-infigo/";
+const CSS_DESTINATION = `_WP-Theme/${THEME_NAME}/`;
 
 
 /**
  * Compile scss files
+ * save css build in theme folder
  */
 GULP.task("sass", function () {
   return GULP.src("sass/style.scss")
@@ -21,11 +31,11 @@ GULP.task("sass", function () {
 });
 
 /*
-*  Move folders to theme location
+*  Move development files to theme location
 */
 GULP.task("move-files", function() {
   return GULP.src(THEME_FOLDERS)
-  .pipe(GULP.dest(DEST));
+  .pipe(GULP.dest(THEME_DESTINATION));
 });
 
 /*
