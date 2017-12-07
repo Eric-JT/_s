@@ -5,7 +5,7 @@ my_s
 Starter theme for wordpress development. Forked from [_s](https://github.com/Automattic/_s). Set up for my current development style. The idea is to develelolp in 
 my projects directory and send over my builds to my wordpress theme in my server directory.
 
-In the gulpfile I use the `move-files` task to copy the build files from my development location to my themes location whenever changes are made. Until I figure out how to only move the changed files, everything is copied over everytime :unamused:
+In the gulpfile I use the `move-files` task to copy the build files from my development location to my themes location whenever changes are made. Files are moved upon save, and only the changed files are moved.
 
 
 * A helpful 404 template.

@@ -1,6 +1,7 @@
 const GULP         = require("gulp");
 const SASS         = require("gulp-sass");
 const PREFIX       = require("gulp-autoprefixer");
+const CHANGED      = require('gulp-changed');
 
 
 // CHANGE THESE VARIABLE VALUES
@@ -33,8 +34,9 @@ GULP.task("sass", function () {
 *  Move development files to theme location
 */
 GULP.task("move-files", function() {
-  console.log(`Moving files to ${THEME_DESTINATION}`);
+  console.log(`Moving saved file to ${THEME_DESTINATION}`);
   return GULP.src(`${THEME_FOLDERS}/**`)
+  .pipe(CHANGED(THEME_DESTINATION))
   .pipe(GULP.dest(THEME_DESTINATION));
 });
 
