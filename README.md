@@ -28,6 +28,7 @@ If you want to keep it simple, head over to https://underscores.me and generate 
 [Gulp](http://gulpjs.com/)
 [SASS](https://www.npmjs.com/package/gulp-sass)
 [Autoprefix](https://www.npmjs.com/package/gulp-autoprefixer)
+[gulp-changed](https://github.com/sindresorhus/gulp-changed)
 
 
 ## System Preparation
