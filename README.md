@@ -35,7 +35,7 @@ If you want to keep it simple, head over to https://underscores.me and generate 
 
 To use this project, you'll need the following software installed on your machine.
 
-1. [NodeJS](http://nodejs.org) - use the installer.
+1. [NodeJS](http://nodejs.org)
 2. [GulpJS](https://github.com/gulpjs/gulp)
 
 ## Local Installation
