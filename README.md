@@ -40,7 +40,7 @@ To use this project, you'll need the following software installed on your machin
 
 ## Local Installation
 
-1. Clone or fork this repo, or download it into a directory of your choice.
+1. Download into a directory of your choice.
 2. Inside the directory, run `npm install`.
 
 ## Usage
