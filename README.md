@@ -1,5 +1,5 @@
 
-MY_s
+my_s
 ===
 
 Starter theme for wordpress development. Forked from [_s](https://github.com/Automattic/_s). Set up for my current development style. The idea is to develelolp in 
